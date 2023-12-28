@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #333333;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 100vmin;
+    height: 100vmin;
+    background-image: url('./map.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.token {
+    cursor: move;
+    position: absolute;
+    border-radius: 50vmax;
+    border: none;
+    background: none;
+    height: 6vmin;
+    width: 6vmin;
+    filter: drop-shadow(0.5vmin 0.5vmin 1vmin black);
+}

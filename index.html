@@ -3,42 +3,24 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="title" content="Plectropoly">
+		<meta name="description" content="Plectropoly : Monopoly du club du coin lecture">
+
+		<!-- Open Graph -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://plectropoly.netlify.app/">
+		<meta property="og:title" content="Plectropoly">
+		<meta property="og:description" content="Plectropoly : Monopoly du club du coin lecture">
+		<meta property="og:image" content="https://plectropoly.netlify.app/map.png">
+
+		<link rel="shortcut icon" href="plectrum.png" type="image/png">
+
 		<title>Plectropoly</title>
 		<link
 			rel="stylesheet"
 			href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
 		/>
-		<style>
-			* {
-				box-sizing: border-box;
-			}
-			body {
-				background-color: #333333;
-				min-height: 100vh;
-				padding: 0;
-				margin: 0;
-			}
-			main {
-				width: 100vmin;
-				height: 100vmin;
-				margin: auto;
-				background-image: url('./map.png');
-				background-size: contain;
-				background-repeat: no-repeat;
-				background-position: center;
-				position: relative;
-			}
-			.token {
-				cursor: move;
-				position: absolute;
-				border-radius: 50vmax;
-				border: none;
-				background: none;
-				height: 6vmin;
-				width: 6vmin;
-				filter: drop-shadow(0.5vmin 0.5vmin 1vmin black);
-			}
-		</style>
+		<link rel="stylesheet" href="style.css">
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script src="main.js" defer></script>
